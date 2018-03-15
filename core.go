@@ -1,4 +1,4 @@
-package core
+package main
 
 import (
 	"bufio"
@@ -337,3 +337,5 @@ func (client *ClientStr) reconnect() {
 		}
 	}
 }
+
+func main() { }
